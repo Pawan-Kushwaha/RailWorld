@@ -8,5 +8,6 @@ public static void main(String []args){
         b=a-b;
         a=a-b;
         System.out.print("first value= "+a+"Second value = "+b);
+	System.out.println("Thank You :");
     }
 }
