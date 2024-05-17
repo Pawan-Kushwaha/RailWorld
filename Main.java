@@ -1,13 +1,10 @@
-package inheritance.HierarchicalInheritance;
+package inheritance.HierarchicalInheritance.MultilevelInheritance;
 
 class Main{
     public static void main(String args[]){
-        Cat c=new Cat();
-        c.meow();
-        c.eat();
-
-        Dog d = new Dog();
+        BabyDog d=new BabyDog();
+        d.weep();
         d.bark();
         d.eat();
-//c.bark();//C.T.Error
-    }}
+    }
+}
