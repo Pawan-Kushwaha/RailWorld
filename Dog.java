@@ -1,7 +1,7 @@
-package inheritance.HierarchicalInheritance;
+package inheritance.HierarchicalInheritance.SimpleInheritance;
 
 class Dog extends Animal {
     void bark(){
-        System.out.println("Dog Class barking");
+        System.out.println("barking...");
     }
 }

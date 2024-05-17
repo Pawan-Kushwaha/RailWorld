@@ -1,7 +1,6 @@
-package inheritance.HierarchicalInheritance;
-
+package inheritance.HierarchicalInheritance.SimpleInheritance;
 class Animal{
     void eat(){
-        System.out.println("Animal Class");
+        System.out.println("eating...");
     }
 }
