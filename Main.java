@@ -1,9 +1,8 @@
-package inheritance.HierarchicalInheritance.MultilevelInheritance;
+package inheritance.HierarchicalInheritance.SimpleInheritance;
 
 class Main{
     public static void main(String args[]){
-        BabyDog d=new BabyDog();
-        d.weep();
+        Dog d=new Dog();
         d.bark();
         d.eat();
     }

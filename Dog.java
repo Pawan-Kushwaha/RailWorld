@@ -1,4 +1,4 @@
-package inheritance.HierarchicalInheritance.MultilevelInheritance;
+package inheritance.HierarchicalInheritance.SimpleInheritance;
 
 class Dog extends Animal {
     void bark(){
