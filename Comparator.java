@@ -1,5 +1,5 @@
 package Collection;
 
 public interface Comparator<T> {
-    String compare(Employee o1, Employee o2);
+    int compare(Employee o1, Employee o2);
 }
