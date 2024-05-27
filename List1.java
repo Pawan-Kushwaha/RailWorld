@@ -1,6 +1,8 @@
 package Collection;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Scanner;
 
 public class List1 {
     public static void main(String[] args) {
@@ -21,16 +23,16 @@ public class List1 {
         ArrayList<Employee> arrayList1 = new ArrayList();
         System.out.println("Enter Employee ID,Name,position : ");
 
-        int d = scanner.nextInt();
-        scanner.next();
-        String string = scanner.nextLine();
-        String string1 = scanner.next();
+//        int d = scanner.nextInt();
+//        scanner.next();
+//        String string = scanner.nextLine();
+//        String string1 = scanner.next();
 
-        Employee employee = new Employee(4,"Ankesh","Trainee");
+        Employee employee = new Employee(4,"Kamal","Trainee");
 //
-////        Employee employee1 = new Employee(352,"Raju","Trainer");
+        Employee employee1 = new Employee(352,"Durgesh","Trainer");
         arrayList1.add(employee);
-////        arrayList1.add(employee1);
+        arrayList1.add(employee1);
 //
 ////        System.out.println(employee);
         System.out.println(arrayList1);
@@ -56,7 +58,7 @@ public class List1 {
 //        set1.add(employee1);
 
 //        System.out.println(set1);
-        Collections.sort(arrayList1,new EmployeeById());
+        Collections.sort(arrayList1, new EmployeeById());
         System.out.println(arrayList1);
     }
 }
